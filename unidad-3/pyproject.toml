@@ -1,0 +1,10 @@
+[tool.black]
+line-length = 100
+
+[tool.coverage.run]
+branch = true
+source = ["src"]
+
+[tool.coverage.report]
+fail_under = 90
+show_missing = true

@@ -1,0 +1,17 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\admin\AppData\Local\Programs\Python\Python312\python.exe
+rootdir: D:\UTN\Metodologia 2\Unidad 3\proyecto
+configfile: pyproject.toml
+plugins: anyio-4.15.1, cov-7.1.0, mock-3.15.1
+collecting ... collected 8 items
+
+tests/test_descuentos.py::test_cliente_premium_con_10_unidades_recibe_20_por_ciento PASSED [ 12%]
+tests/test_descuentos.py::test_cliente_premium_con_monto_alto_recibe_30_por_ciento PASSED [ 25%]
+tests/test_descuentos.py::test_cliente_premium_con_pocas_unidades_no_recibe_descuento PASSED [ 37%]
+tests/test_descuentos.py::test_cliente_regular_con_10_unidades_recibe_10_por_ciento PASSED [ 50%]
+tests/test_descuentos.py::test_cliente_regular_con_pocas_unidades_no_recibe_descuento PASSED [ 62%]
+tests/test_descuentos.py::test_tipo_de_cliente_desconocido_no_recibe_descuento PASSED [ 75%]
+tests/test_descuentos.py::test_monto_no_positivo_lanza_error[0] PASSED   [ 87%]
+tests/test_descuentos.py::test_monto_no_positivo_lanza_error[-100] PASSED [100%]
+
+============================== 8 passed in 0.01s ==============================

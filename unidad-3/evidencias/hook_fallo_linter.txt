@@ -1,0 +1,10 @@
+
+==> [1/3] Formatter (black --check)
+All done! \u2728 \U0001f370 \u2728
+9 files would be left unchanged.
+
+==> [2/3] Linter (flake8)
+src\util.py:1:1: F401 'os' imported but unused
+
+XX COMMIT RECHAZADO: fallo en la etapa 'Linter'. Corregi el problema y volve a intentar.
+exit=1

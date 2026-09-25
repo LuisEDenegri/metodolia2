@@ -1,0 +1,78 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\admin\AppData\Local\Programs\Python\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: D:\UTN\Metodologia 2\Unidad 3\proyecto
+configfile: pyproject.toml
+plugins: anyio-4.15.1, cov-7.1.0, mock-3.15.1
+collecting ... collected 55 items
+
+tests/test_descuentos.py::test_cliente_premium_con_10_unidades_recibe_20_por_ciento PASSED [  1%]
+tests/test_descuentos.py::test_cliente_premium_con_monto_alto_recibe_30_por_ciento PASSED [  3%]
+tests/test_descuentos.py::test_cliente_premium_con_pocas_unidades_no_recibe_descuento PASSED [  5%]
+tests/test_descuentos.py::test_cliente_regular_con_10_unidades_recibe_10_por_ciento PASSED [  7%]
+tests/test_descuentos.py::test_cliente_regular_con_pocas_unidades_no_recibe_descuento PASSED [  9%]
+tests/test_descuentos.py::test_tipo_de_cliente_desconocido_no_recibe_descuento PASSED [ 10%]
+tests/test_descuentos.py::test_monto_no_positivo_lanza_error[0] PASSED   [ 12%]
+tests/test_descuentos.py::test_monto_no_positivo_lanza_error[-100] PASSED [ 14%]
+tests/test_pagos.py::test_pago_aprobado_devuelve_id_de_transaccion PASSED [ 16%]
+tests/test_pagos.py::test_pago_rechazado_lanza_excepcion_con_motivo PASSED [ 18%]
+tests/test_pagos.py::test_mock_verifica_protocolo_de_cobro PASSED        [ 20%]
+tests/test_pagos.py::test_timeout_reintenta_una_sola_vez PASSED          [ 21%]
+tests/test_reportes.py::test_total_en_ars_con_iva PASSED                 [ 23%]
+tests/test_reportes.py::test_formato_no_soportado_lanza_error PASSED     [ 25%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[texto-USD-True-True] PASSED [ 27%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[texto-USD-True-False] PASSED [ 29%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[texto-USD-False-True] PASSED [ 30%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[texto-USD-False-False] PASSED [ 32%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[texto-ARS-True-True] PASSED [ 34%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[texto-ARS-True-False] PASSED [ 36%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[texto-ARS-False-True] PASSED [ 38%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[texto-ARS-False-False] PASSED [ 40%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[texto-EUR-True-True] PASSED [ 41%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[texto-EUR-True-False] PASSED [ 43%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[texto-EUR-False-True] PASSED [ 45%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[texto-EUR-False-False] PASSED [ 47%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[json-USD-True-True] PASSED [ 49%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[json-USD-True-False] PASSED [ 50%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[json-USD-False-True] PASSED [ 52%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[json-USD-False-False] PASSED [ 54%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[json-ARS-True-True] PASSED [ 56%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[json-ARS-True-False] PASSED [ 58%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[json-ARS-False-True] PASSED [ 60%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[json-ARS-False-False] PASSED [ 61%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[json-EUR-True-True] PASSED [ 63%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[json-EUR-True-False] PASSED [ 65%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[json-EUR-False-True] PASSED [ 67%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[json-EUR-False-False] PASSED [ 69%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[csv-USD-True-True] PASSED [ 70%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[csv-USD-True-False] PASSED [ 72%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[csv-USD-False-True] PASSED [ 74%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[csv-USD-False-False] PASSED [ 76%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[csv-ARS-True-True] PASSED [ 78%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[csv-ARS-True-False] PASSED [ 80%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[csv-ARS-False-True] PASSED [ 81%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[csv-ARS-False-False] PASSED [ 83%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[csv-EUR-True-True] PASSED [ 85%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[csv-EUR-True-False] PASSED [ 87%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[csv-EUR-False-True] PASSED [ 89%]
+tests/test_reportes.py::test_refactor_mantiene_comportamiento_del_legacy[csv-EUR-False-False] PASSED [ 90%]
+tests/test_seguridad.py::test_clave_correcta_se_verifica PASSED          [ 92%]
+tests/test_seguridad.py::test_clave_incorrecta_no_se_verifica PASSED     [ 94%]
+tests/test_seguridad.py::test_misma_clave_genera_hashes_distintos_por_la_sal PASSED [ 96%]
+tests/test_seguridad.py::test_enviar_sin_token_falla PASSED              [ 98%]
+tests/test_seguridad.py::test_enviar_usa_token_y_timeout PASSED          [100%]
+
+=============================== tests coverage ================================
+______________ coverage: platform win32, python 3.12.10-final-0 _______________
+
+Name                Stmts   Miss Branch BrPart  Cover   Missing
+---------------------------------------------------------------
+src\__init__.py         0      0      0      0   100%
+src\descuentos.py      13      0     12      0   100%
+src\pagos.py           14      0      2      0   100%
+src\reportes.py        32      0     10      0   100%
+src\seguridad.py       18      0      2      0   100%
+---------------------------------------------------------------
+TOTAL                  77      0     26      0   100%
+Required test coverage of 90.0% reached. Total coverage: 100.00%
+============================= 55 passed in 0.60s ==============================

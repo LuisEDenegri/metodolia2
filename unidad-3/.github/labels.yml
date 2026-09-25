@@ -1,0 +1,12 @@
+- name: bug
+  color: "b60205"
+  description: Defecto que rompe un comportamiento esperado
+- name: technical-debt
+  color: "5319e7"
+  description: Refactor o mejora interna sin cambio funcional
+- name: documentation
+  color: "0075ca"
+  description: Cambios solo de documentacion
+- name: feature
+  color: "0e8a16"
+  description: Funcionalidad nueva

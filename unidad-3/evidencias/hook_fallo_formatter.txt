@@ -1,0 +1,16 @@
+
+==> [1/3] Formatter (black --check)
+--- D:\UTN\Metodologia 2\Unidad 3\proyecto\src\util.py	2026-09-24 23:44:17.115641+00:00
++++ D:\UTN\Metodologia 2\Unidad 3\proyecto\src\util.py	2026-09-24 23:44:17.773830+00:00
+@@ -1,2 +1,2 @@
+-def suma(a,b):
+-  return a+b
++def suma(a, b):
++    return a + b
+would reformat D:\UTN\Metodologia 2\Unidad 3\proyecto\src\util.py
+
+Oh no! \U0001f4a5 \U0001f494 \U0001f4a5
+1 file would be reformatted, 8 files would be left unchanged.
+
+XX COMMIT RECHAZADO: fallo en la etapa 'Formatter'. Corregi el problema y volve a intentar.
+exit=1

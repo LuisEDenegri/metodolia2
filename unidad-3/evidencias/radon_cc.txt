@@ -1,0 +1,19 @@
+legacy/reportes.py
+    F 6:0 reporte_ventas - D (24)
+    F 64:0 hash_clave - A (1)
+    F 68:0 enviar - A (1)
+src/reportes.py
+    F 9:0 _convertir - A (4)
+    F 20:0 _filtrar - A (3)
+    F 24:0 _render_lineas - A (3)
+    F 51:0 reporte_ventas - A (3)
+    F 32:0 _render_texto - A (1)
+    F 36:0 _render_csv - A (1)
+    F 40:0 _render_json - A (1)
+src/seguridad.py
+    F 13:0 hash_clave - A (2)
+    F 25:0 enviar - A (2)
+    F 20:0 verificar_clave - A (1)
+
+13 blocks (classes, functions, methods) analyzed.
+Average complexity: A (3.6153846153846154)

@@ -1,0 +1,9 @@
+commit 2633d06
+Rama:   feature/12-refactor-reportes
+Autor:  Luis de Negri
+Fecha:  2026-09-24 20:45
+
+    refactor: reducir complejidad de reporte_ventas, corregir seguridad y actualizar dependencias
+
+    Closes #12
+
